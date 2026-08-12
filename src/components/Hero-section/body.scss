@@ -1,0 +1,319 @@
+.mainDiv{
+font-family: sans-serif;
+position: relative;
+padding-left: 2px;
+padding-right: 16px;
+background-image: url('../../assets/png/bgImg.png');
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+// background-repeat: no-repeat;
+padding-top: 200px;
+
+
+}
+.hero{
+    margin-top: 0px;
+    // padding-right: 10px;
+//    border: 2px solid black;
+   height: 600px;
+//    border-radius: 3rem;
+   opacity: 15;
+//    width: 100%;
+   height: 100%;
+//    margin-left: 30px;
+   max-width: 100%;
+ 
+   
+
+}
+.imgBg{
+
+    // margin-top: 20px;
+    // background-size: cover;
+    
+    // height: 800px;
+    width: 97%;
+    // height: 100%;
+    border-radius: 50px;
+    // padding-right: 10px;
+    // margin-left: 1rem;
+}
+
+.top{
+    height: 20px;
+    // margin-left: 10rem;
+    // color: aliceblue;
+}
+.top{
+    position: absolute;
+    font-size: 44px;
+    font-weight: 600;
+    // left: 30rem;
+    // bottom: 36rem;
+    background-color:none;
+    color: white;
+    padding: 0px;
+    font-family:sans-serif;
+
+}
+.mid{
+    position: absolute;
+    // bottom: 25rem;
+    // left: 23rem;
+    font-size: 120px;
+    font-weight: 700;
+    color: white;
+    // margin-left: 10rem;
+    font-family:sans-serif;
+}
+.b1{
+    font-size: 20px;
+    position: absolute;
+    // bottom: 23rem;
+    // left: 22rem;
+    color: white;
+    font-family: sans-serif;
+    // margin-left: 10rem;
+
+
+}
+.b2{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    // bottom: 21rem;
+    // margin-left: 10rem;
+    // left: 25rem;
+}
+.button{
+    background-color: white;
+    position: absolute;
+    // bottom: 15rem;
+    // left: 34rem;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    // margin-left: 7rem;
+    padding: 20px 40px;
+}
+.button:hover{
+    background-color:maroon ;
+    color:white;
+}
+
+@media (min-width:320px) and (max-width: 768px) {
+    .mainDiv {
+        width: 100%;
+        padding: 96px 16px 24px;
+    }
+
+    .imgBg {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .hero {
+        width: 100%;
+        height: auto;
+        min-height: 420px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .top,
+    .mid,
+    .b1,
+    .b2,
+    .button {
+        left: 50%;
+        margin-left: 0;
+        transform: translateX(-50%);
+        text-align: center;
+        width: calc(100% - 48px);
+    }
+
+    .top {
+        bottom: 47%;
+        font-size: 2rem;
+    }
+
+    .mid {
+        bottom: 36%;
+        font-size: clamp(3rem, 15vw, 5rem);
+        line-height: 1;
+    }
+
+    .b1 {
+        bottom: 30%;
+        font-size: 1rem;
+    }
+
+    .b2 {
+        bottom: 27%;
+        font-size: 1rem;
+    }
+
+    .button {
+        bottom: 19%;
+        width: auto;
+        white-space: nowrap;
+        padding: 14px 28px;
+    }
+    
+}
+// @media (min-width:375px ) and (max-width:768px) {
+//     .hero{
+//         width: 89rem;
+//         height: 79rem;
+//         margin-left: 1rem;
+        
+//     }
+//     .mainDiv{
+//         width: 106rem;
+
+//     }
+
+//     .imgBg{
+//         width: 90rem;
+//         margin-left: 9rem;
+//         margin-top: 40px;
+
+//     }
+//     #heroText{
+//         // margin-bottom: 28rem;
+//     }
+//     .top{
+//         padding-bottom: 29rem;
+//         font-size: 5rem;
+//         margin-left: 15rem;
+//     }
+//     .mid{
+//         margin-left: 9rem;
+//         font-size: 15rem;
+//         margin-top: 9em;
+//         padding-bottom: 17rem;
+//     }
+//     .b1{
+//        margin-top: 20rem;
+//        font-size: 2.2rem;
+//        margin-left: 11rem;
+//        margin-bottom: 15rem;
+
+//     }
+//     .b2{
+//         font-size: 2.2rem;
+//         margin-left: 13rem;
+//         margin-bottom: 12rem;
+
+//     }
+
+//     .button{
+//         margin-left: 20rem;
+//         margin-bottom: 10rem;
+//     }
+// }
+@media (min-width:1024px){
+    .hero{
+        margin-left: 20px;
+        position: absolute;
+        bottom: 10px;
+        height: 80vh;
+        left: 10%;
+        width: 76vw;
+        margin-bottom: 20px;
+        opacity: 0.5;
+    }
+    .overlayBg{
+        background-color: black;
+        height: 80vh;
+        width: 76vw;
+        position: absolute;
+        left: 173px;
+        bottom: 30px;
+    }
+    .top{
+        position: absolute;
+        left: 39%;
+    }
+    .mid{
+        position: absolute;
+        left: 32%;
+        top: 36%;
+    }
+    .b1{
+        position: absolute;
+        left: 32%;
+        top: 56%;
+    }
+    .b2{
+        position: absolute;
+        left: 36%;
+        top: 63%;
+    }
+    .button{
+        position: absolute;
+        top: 71%;
+        left: 43%;
+    }
+}
+@media (min-width:365px) and (max-width:765px){
+        .overlayBg{
+            background-color: black;
+            height: 77%;
+            width: 94%;
+            position: absolute;
+
+        }
+        .hero{
+            height: 90%;
+            opacity: 0.5;
+            width: 100%;
+        }
+}
+@media (min-width:766px) and (max-width:1024px){
+    .hero{
+        position: absolute;
+        // bottom: 16px;
+        top: 70px;
+        left: 20px;
+        width: 96vw;
+        height: 85%;
+        opacity: 0.5;
+        
+    }
+    .top{
+        position: absolute;
+        left: 33%;
+    }
+    .mid{
+        position: absolute;
+        left: 20%;
+        top: 40%;
+    } 
+    .b1{
+        position: absolute;
+        left: 21%;
+        top: 63%;
+    }
+    .b2{
+        position: absolute;
+        left: 25%;
+        top: 69%;
+    }
+    .button{
+        position: absolute;
+        top: 76%;
+        left: 38%;
+    }
+    .overlayBg{
+        height: 86vh;
+        width: 96vw;
+        background-color:rgba(0,0,0,0.9);;
+        position: absolute;
+        bottom: 2%;
+        left: 3%;
+    }
+}

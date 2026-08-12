@@ -1,0 +1,210 @@
+.formContainer{
+    background-color: #124682;
+    height: 100%;
+    // width: 750px;
+    
+  
+}
+.joinContainer{
+    display: flex;
+    justify-content: space-between;
+    // margin-right: 120px;
+    padding: 72px 80px;
+    gap:90px;
+    // width: ;
+    height: 100vh;
+    
+
+}
+.radioForm>p{
+   margin: 10px;
+}
+.ulLeftForm{
+    padding-left: 10px;
+}
+.formLeft{
+    display: flex;
+    flex-direction: column;
+   color: #124682;
+    
+}
+.labelForm{
+    margin: 6px;
+}
+.headForm{
+    font-size: 25px;
+}
+.leftUp{
+     background-color: white;
+     margin-bottom: 20px;
+     height:40vh;
+     padding: 38px;
+     width: 50vw;
+     border-radius: 20px;
+}
+.leftBelow{
+     background-color: white;
+    margin-top: 40px;
+     height: 40vh;
+     padding: 38px;
+     border-radius: 20px;
+}
+.underline{
+    margin-bottom: 30px;
+    border: 2px solid yellow;
+    width: 130px;
+    margin-top: 10px;
+}
+.list{
+    list-style-type:circle yellow
+     ;
+    padding: 5px;
+}
+.formTop{
+      color: white;
+      padding-left: 80px;
+      padding-top: 30px;
+    //   margin-bottom: 40px;
+      font-size: 40px;
+}
+.rightForm{
+    background-color: white;
+    height: 68vh;
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    color: #124682;
+    font-size: 1.3rem;
+}
+.errorEmail{
+    color: red;
+    font-family: sans-serif;
+}
+.errorPhone{
+    color: red;
+    font-family: sans-serif;
+}
+.inputForm{
+    width: 100%;
+    // height: 30px;
+    border-radius: 20px;
+    // border: 1px solid #124682;
+    padding: 15px;
+    border:none;
+    border: 2px solid #e6e6e6;;
+    margin-top: 4px;
+    margin-right: 10px;
+    font-size: 1rem;
+
+}
+
+.formSubmit{
+    height: 2.7rem;
+    width: 6rem;
+    background-color: #124682;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    // margin-left: px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.3rem ;
+    font-weight: 300;
+}
+.formSubmit:disabled{
+    background-color: #888888;
+}
+.formSubmit:enabled:hover{
+    background-color: #5295e1;
+    border: none;
+}
+
+.labelForm{
+  cursor: pointer;
+}
+#checkMark1{
+    cursor: pointer;
+}
+#checkMark2{
+    cursor: pointer;
+}
+.list{
+    padding-left: 10px;
+}
+
+@media (min-width:320px) and (max-width: 768px) {
+    .joinContainer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .leftUp,
+    .leftBelow,
+    .rightForm {
+        width: 100%;
+        height: auto;
+    }
+}
+// @media (min-width:365px) and (max-width:765px){
+//     .formContainer{
+        
+//          width: 116rem;
+//         //  padding: 10px;
+//     }
+//     .joinContainer{
+//         display: grid;
+//         grid-template-rows: 20rem 20rem;
+//         grid-template-columns: 50rem 50rem;
+//         gap:9rem
+//     }
+//     .rightForm{
+//         font-size: 1.6rem;
+//         height: 40rem;
+//         width: 32rem;
+//     }
+//     .leftUp{
+//         height: 30rem;
+//         font-size: 2rem;
+//     }
+//     .leftBelow{
+//         font-size: 2rem;
+//         height: 30rem;
+//     }
+//     .formTop{
+//         font-size: 3.6rem;
+//     }
+//     .inputForm{
+//         width: 31rem;
+//     }
+    
+// }
+@media (min-width:766px) and (max-width:1024px){
+    .joinContainer{
+        padding: 0;
+        height: 100vh;
+        // margin-bottom: 20%;
+    }
+    .rightForm{
+        height: 100vh;
+        margin-right: 30px;
+    }
+    .leftUp{
+        margin-top: 20px;
+        height: 70vh;
+    }
+    .leftBelow{
+        height: 70vh;
+    }
+    .formContainer{
+        height: 61rem;
+        width: 100%;
+        padding: 20px;
+    }
+}

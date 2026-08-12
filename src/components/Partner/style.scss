@@ -1,0 +1,59 @@
+.partnerSection{
+    background-color: #607C35;
+    // display: flex;
+    // justify-content: space-between;
+    // position: relative;
+    // margin: 70px;
+    height: 300px;
+    padding-left: 40px;
+}
+.partLogo{
+    background-color: transparent;
+    height: 80px;
+    // width: 170px;
+}
+.partnerHead{
+    font-size:25px;
+    // margin: 50px;
+    margin-left: 0px;
+    color: white;
+    padding: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.partnerLogo{
+    display: flex;
+    // justify-content:flex-start;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 50px;
+}
+// @media (min-width:365px) and (max-width:765px){
+//     .partnerSection{
+//         width: 113rem;
+//         height: 26rem;
+//     }
+//     .partnerLogo{
+//         display: flex;
+//         justify-content:space-around;
+//         margin-top: 3rem;
+//         margin-right:24rem ;
+//     }
+//     .partLogo{
+//         height: 8rem;
+//     }
+//     .partnerHead{
+//         font-size: 3rem;
+//     }
+// }
+
+@media (min-width:320px) and (max-width:765){
+   
+    .partnerLogo{
+        flex-direction: column;
+    }
+    .partnerSection{
+        display: flex;
+        flex-direction: column;
+    }
+}

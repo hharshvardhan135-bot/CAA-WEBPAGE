@@ -1,0 +1,86 @@
+.model{
+    display: flex;
+    justify-content:space-between;
+    gap: 280px;
+    padding: 72px 80px;
+    
+}
+.change{
+    height: 400px;
+}
+.theory{
+    font-size: 36px;
+    border-bottom: 5px solid rgb(194, 226, 13);
+    padding-right: 10px;
+    font-family: sans-serif;
+}
+.change{
+    font-size: 36px;
+    padding-top: 6rem;
+    font-family: sans-serif;
+    margin-right: 40px;
+}
+.desc{
+    color: black;
+    font-size: 20px;
+    padding-top: 2rem;
+    font-family: sans-serif;
+}
+.desc2{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    .model {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+// @media (min-width:455px) and (max-width:765px){
+//     .model{
+//         margin-top: 70px;
+//         margin-bottom: 60px;
+//         width: 103rem;
+//         gap: 10rem;
+        
+//     }
+//     #modelText{
+//         font-size: 2.2rem;
+//     }
+//     .gif{
+//         margin-left: 40px;
+//     }
+// }
+@media (min-width:320px) and (max-width:765px){
+    .gifImg{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 0;
+    }
+    .model{
+        gap: 20px;
+    }
+}
+@media (min-width:1021px){
+    .gif{
+        width: 50%;
+    }
+    .gifImg{
+        height: 450px;
+        width: 560px;
+    }
+}
+@media (min-width:766px) and (max-width:1024px){
+    .gifImg{
+        height: 450px;
+        width: 500px;
+    }
+    .model{
+        margin-top: 20%;
+        flex-direction: column;
+    gap: 20px;}
+}

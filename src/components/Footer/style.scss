@@ -1,0 +1,139 @@
+    .footerContainer{
+    background-color: #124682;
+    display: flex;
+    justify-content: space-between;
+}
+.caaLogo{
+    height: 130px;
+    width: 100px;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.footerMain{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.logoMark{
+    margin-left: 30px;
+    color: white;
+    font-weight: 600;
+}
+.footerUp{
+    display: flex;
+    // justify-content: space-between;
+    gap: 40px;
+}
+.fone{
+    margin-top: 50px;
+    color: white;
+}
+.ftwo{
+    margin-right: 50px;
+    margin-top: 50px;
+    color: white;
+}
+.podcast{
+    margin-bottom: 20px;
+}
+.socialMedia{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    margin-left: 80px;
+    padding-bottom:40px ;
+
+    
+}
+.socialLogo{
+    background-color: transparent;
+    // margin: 15px;
+    height:30px;
+    width: 30px;
+    margin-top: 30px;
+
+    
+}
+.join{
+    margin-bottom: 20px;
+}
+.contact{
+    margin-bottom: 20px;
+}
+.faq{
+    margin-bottom: 20px;
+}
+.vlOne{
+    border-left: 2px solid white;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.vlTwo{
+    border-left: 2px solid white;
+    height: 150px;
+    margin-top: 40px;
+    // margin-left: 50px;
+}
+
+@media (min-width:320px) and (max-width: 768px) {
+    .footerContainer,
+    .footerUp {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .footerContainer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .socialMedia,
+    .logoMark,
+    .caaLogo {
+        margin-left: 0;
+    }
+
+    .vlOne,
+    .vlTwo {
+        width: 1px;
+    }
+    .footerUp{
+        flex-direction: row;
+        gap: 40px;
+        justify-content: flex-start;
+
+    }
+    .logoMark{
+        margin-top: 30px;
+        padding-left: 0px;
+    }
+}
+// @media  (min-width:365px) and (max-width:765px) {
+//     .footerContainer{
+//         width: 116rem;
+//         height: 30rem;
+//     }
+//     .caaLogo{
+//         height: 9rem;
+//         width: 12rem;
+//     }
+//     .logoMark{
+//         font-size: 2rem;
+//     }
+//     .footerUp{
+//         font-size: 2rem;
+//     }
+//     .vlOne{
+//         height:8rem;   
+//      }
+//     .vlTwo{
+//         height: 17rem;
+//     }
+//     .socialLogo{
+//         width: 3.7rem;
+//         height: 3rem;
+//     }
+// }

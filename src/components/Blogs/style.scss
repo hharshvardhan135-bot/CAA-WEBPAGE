@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.blogContent{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-family: sans-serif;
+    padding-left: 35px;
+}
+.blogHeading{
+    margin-bottom: 10px;
+    padding: 30px;
+    font-size: 37px;
+    font-family: sans-serif;
+    color: black;
+    margin-left: 40px;
+}
+.blogImg{
+    width: 550px;
+    height: 300px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    object-fit: fill;
+
+}
+.dateBlog{
+    margin-left: 60px;
+    margin-bottom: 30px;
+    color: #5F5F5F;
+}
+.factBlog{
+    // margin: 20px;
+    font-size:1.9rem;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    
+}
+.paraBlog{
+    font-size: 1.2rem;
+    margin-left: 60px;
+}
+.blogRead{
+    margin-left: 60px;
+    margin-bottom: 3rem;
+    height: 50px;
+    margin-top: 1rem;
+    width: 120px;
+    background-color: #124682;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    // margin: 20px;
+}
+.blogRead:hover{
+    background-color: #62a7f7;
+    border: 2px solid white;
+}
+
+.rightBlogContent{
+    padding-right: 7rem;
+    margin-left: 5rem;
+}
+.rightHead{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.blogP{
+    color: #5F5F5F;
+}
+.blogSub{
+     margin: 20px;
+     height: 50px;
+     width: 200px;
+     border-radius: 30px;
+     border: 0;
+     background-color: #124682;
+     color: white;
+     cursor: pointer;
+}
+.blogSub:hover{
+    background-color: #62a7f7;
+}
+.blogDesc{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:320px) and (max-width: 768px) {
+    .blogContent {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .blogImg,
+    .rightBlogContent {
+        margin-left: 0;
+    }
+
+    .blogImg {
+        width: 100%;
+    }
+
+    .dateBlog,
+    .factBlog,
+    .paraBlog,
+    .blogRead {
+        margin-left: 0;
+    }
+
+    .rightBlogContent {
+        padding-right: 0;
+    }
+}
+// @media (min-width:365px) and (max-width:765px){
+//    .blogContent{
+//     width: 100rem;
+//    }
+//    .rightBlogContent{
+//     font-size: 2rem;
+//    }
+// }
+@media (min-width:766px) and (max-width:1024px){
+    .blogContent{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .rightBlogContent{
+        margin-left: 38px;
+    }
+    
+}

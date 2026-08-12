@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.rituals{
+    background-color: #8B181A;
+    // height: 2412px;
+    // width: 743.83px
+    padding: 50px 60px;
+
+}
+.headingRitual{
+    font-size: 2rem;
+    // margin: 2rem;
+    // padding-top: 2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.ritualConatiner{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    // height: 350px;
+    // width: 309px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    // margin-left: 20px;
+    font-family: sans-serif;
+    color: #5F5F5F;
+    border-top: 7px solid green;
+    padding: 30px;
+
+}
+.cardLower{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    gap: 30px;
+    // margin: 20px;
+}
+.cardUpper{
+    align-self: center;
+    border-bottom: 2px solid maroon;
+    // padding-top: px;
+    height: 170px;
+}
+.cardIMG{
+    height: 150px;
+    width: 255px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    align-self: center;
+    flex-direction: column;
+}
+.cardHead{
+   margin-bottom: 10px;
+   padding-bottom: 5px;
+   font-size: 32px;
+}
+.cardDesc{
+    font-size: 1rem;
+    // padding-left: 10px;
+    
+}
+.cardRight{
+    padding-right: 20px;
+}
+.cardMonth{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.cardDate{
+    font-size: 40px;
+}
+.ritualContainer{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+
+}
+
+@media (min-width:320px) and (max-width: 768px) {
+    .rituals {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .ritualConatiner,
+    .ritualContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+// @media  (min-width:360px) and (max-width:765px){
+//     .rituals{
+//         width: 108.4rem;
+        
+    
+// }
+// .ritualConatiner{
+//     width: 60rem;
+// }
+// .headingRitual{
+//     font-size: 2.6rem;
+// }
+        
+// }
+@media(min-width:766px) and (max-width:1024px){
+    .ritualContainer{
+        display: grid;
+        grid-template-rows: 400px 400px;
+        grid-template-columns: 300px 300px;
+    }
+
+}

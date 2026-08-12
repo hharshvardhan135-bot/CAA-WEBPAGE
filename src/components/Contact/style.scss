@@ -1,0 +1,104 @@
+.contactUs{
+    margin: 72px 80px;
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+}
+.contactHead{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #393939;
+}
+.contactDetail{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+.phoneDetail{
+    // height: 90px;
+    width: 50%;
+    padding: 30px;
+    // border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px #00000029;
+
+}
+.numberDetails{
+    font-size: 18px;
+    margin-top: 200px;
+    
+}
+.phoneHead{
+    font-size: 23px;
+    font-weight: 700;
+    color: #124682;
+
+}
+.contactEmail{
+    // height: 90px;
+    width: 50%;
+    padding: 30px;
+    padding-left: 100px;
+     border-radius: 20px;
+    box-shadow: 1px 2px 6px #00000029;
+}
+.emailHead{
+    font-size: 23px;
+    font-weight: 700;
+    color: #124682;
+}
+.emailDetail{
+    font-size: 19px;
+}
+// @media (min-width:365px) and (max-width:765px){
+//     .contactUs{
+//         height: 20rem;
+//         font-size: 3rem;
+//         width: 105rem;
+//         margin-bottom: 16rem;
+//     }
+//     .phoneDetail{
+//         height: 20rem;
+//     }
+//     .phoneHead{
+//     font-size: 3rem;
+//     }
+//     .numberDetails{
+//         font-size: 2.5rem;
+//     }
+//     .emailHead{
+//         font-size: 3rem;
+//     }
+//     .contactEmail{
+//         height: 20rem;
+//     }
+//     .emailDetail{
+//         font-size: 2.5rem;
+//     }
+// }
+@media (min-width:320px) and (max-width:765px){
+    .contactUs{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        padding: 0;
+        width: 100vw;
+        margin-top: 20px;
+    }
+    .contactDetail{
+        flex-direction: column;
+    }
+    .phoneDetail{
+        width: 100vw;
+    }
+    .contactEmail{
+        width: 100vw;
+        padding: 20px;
+    }
+    .contactHead{
+        padding-left: 26px;
+    }
+}
