@@ -43,14 +43,6 @@ const Header = () => {
                         <a href="#" key={id}>{name}</a>
                         
                     ))}
-
-
-
-
-                    {/* <a href="/" className='aHeader'>Our Model</a>
-                    <a href="/" className='aHeader'>Impact</a>
-                    <a href="/" className='aHeader'>Join Us</a>
-                    <a href="/" className='aHeader'>Contact Us</a> */}
                 </div>
                 <button className="menuBtn" onClick={click} >
                    {!open ? <img src={menu} alt="" className='menu' />:

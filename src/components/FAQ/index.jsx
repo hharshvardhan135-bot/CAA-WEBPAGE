@@ -27,9 +27,6 @@ const Faq = () => {
     }, []);
     console.log(open);
 
-
-    // const { question, answer } = acc || {};
-
     return (
         <>
             <div className="faqSection">
